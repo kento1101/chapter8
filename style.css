@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+p:nth-child(odd) {
+  background-color: gray;
+}
+
+.boxes {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
